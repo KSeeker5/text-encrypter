@@ -1,0 +1,55 @@
+<!DOCTYPE html 
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 	     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+ 
+ <meta http-equiv="Content-Type" content="text/html;   charset=utf-8"/>
+ <meta name="keywords" content="219-671-3356"/>
+ <meta name="description" content=""/>
+ <meta name="author" content=""/>
+ 
+ <link rel="shortcut icon" href="images/icons/Red Atom Flower Icon.ico"/>
+ <link type="text/css" rel="stylesheet" href="stylesheets/style.css"/>
+ 
+ <script src="javascript/sjcl.js"></script>
+ <script src="javascript/aes.js"></script>
+ <script src="javascript/script.js"></script>
+ <!--<script>
+	//hi
+ </script>-->
+
+ <title>HTML Text Encrypter</title>
+
+ </head>
+ <body class="bluePurple">
+	<h1>HTML TEXT ENCRYPTER</h1>
+	<!--<h3>Encrypted Message Decoder</h3>-->
+	<div style="float:left;text-align:center;width:38%">
+		<h3>Encrypted Text</h3>
+		<div class="inputOutput">
+			<!--<input type="text" name="encryptedText" id="encryptedText"/>-->
+			<textarea id="encryptedText"></textarea>
+		</div>
+	</div>
+	<div style="float:right;text-align:center;width:38%">
+		<h3>Decrypted Text</h3>
+		<div class="inputOutput">
+			<!--<input type="text" name="decryptedText" id="decryptedText"/>-->
+			<textarea id="decryptedText"></textarea>
+		</div>
+	</div>
+	<br/><br/><br/><br/>
+	<h3>Encryption Key</h3>
+	<input type="text" name="encryptionKey" id="encryptionKey" value="Secret Passphrase" style="width:15%"/>
+	<br/><br/>
+	<div style="margin:auto;text-align:center">
+		<input type="button" name="Decrypt" value="Decrypt Text" class="button" onclick="decryptText()"/>
+		<input type="button" name="Encrypt" value="Encrypt Text" class="button" onclick="encryptText()"/>
+		<br/>
+		<input type="button" name="Clear" value="Clear Fields" class="button" onclick="clearFields()"/>
+	</div>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+ </body>
+ </html>
